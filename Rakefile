@@ -1,17 +1,51 @@
+task :default do
+msg = %q&
 
-begin
-    require 'jeweler'
-    Jeweler::Tasks.new do |gemspec|
-        gemspec.name = "mini_fb"
-        gemspec.summary = "Tiny facebook library"
-        gemspec.description = "Tiny facebook library"
-        gemspec.email = "travis@appoxy.com"
-        gemspec.homepage = "http://github.com/appoxy/mini_fb"
-        gemspec.authors = ["Travis Reeder", "Aaron Hurley"]
-        gemspec.files = FileList['lib/**/*.rb']
-        gemspec.add_dependency 'rest-client'
-        gemspec.add_dependency 'hashie'
-    end
-rescue LoadError
-    puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+                        /\
+                        ||
+                        ||
+                        ||
+                        ||                                               ~-----~
+                        ||                                            /===--  ---~~~
+                        ||                   ;'                 /==~- --   -    ---~~~
+                        ||                (/ ('              /=----         ~~_  --(  '
+                        ||             ' / ;'             /=----               \__~
+     '                ~==_=~          '('             ~-~~      ~~~~        ~~~--\~'
+     \\                (c_\_        .i.             /~--    ~~~--   -~     (     '
+      `\               (}| /       / : \           / ~~------~     ~~\   (
+      \ '               ||/ \      |===|          /~/             ~~~ \ \(
+      ``~\              ~~\  )~.~_ >._.< _~-~     |`_          ~~-~     )\
+       '-~                 {  /  ) \___/ (   \   |` ` _       ~~         '
+       \ -~\                -<__/  -   -  L~ -;   \\    \ _ _/
+       `` ~~=\                  {    :    }\ ,\    ||   _ :(
+        \  ~~=\__                \ _/ \_ /  )  } _//   ( `|'
+        ``    , ~\--~=\           \     /  / _/ / '    (   '
+         \`    } ~ ~~ -~=\   _~_  / \ / \ )^ ( // :_  / '
+         |    ,          _~-'   '~~__-_  / - |/     \ (
+          \  ,_--_     _/              \_'---', -~ .   \
+           )/      /\ / /\   ,~,         \__ _}     \_  "~_
+           ,      { ( _ )'} ~ - \_    ~\  (-:-)       "\   ~ 
+                  /'' ''  )~ \~_ ~\   )->  \ :|    _,       " 
+                 (\  _/)''} | \~_ ~  /~(   | :)   /          }
+                <``  >;,,/  )= \~__ {{{ '  \ =(  ,   ,       ;
+               {o_o }_/     |v  '~__  _    )-v|  "  :       ,"
+               {/"\_)       {_/'  \~__ ~\_ \\_} '  {        /~\
+               ,/!          '_/    '~__ _-~ \_' :  '      ,"  ~ 
+              (''`                  /,'~___~    | /     ,"  \ ~' 
+             '/, )                 (-)  '~____~";     ,"     , }
+           /,')                    / \         /  ,~-"       '~'
+       (  ''/                     / ( '       /  /          '~'
+    ~ ~  ,, /) ,                 (/( \)      ( -)          /~'
+  (  ~~ )`  ~}                   '  \)'     _/ /           ~'
+ { |) /`,--.(  }'                    '     (  /          /~'
+(` ~ ( c|~~| `}   )                        '/:\         ,'
+ ~ )/``) )) '|),                          (/ | \)
+  (` (-~(( `~`'  )                        ' (/ '
+   `~'    )'`')                              '
+     ` ``
+&
+
+puts msg
+$stderr.puts "You're not supposed to be here."
 end
+
